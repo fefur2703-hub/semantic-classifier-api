@@ -8,8 +8,8 @@ from sca_utils import TextClassifier
 app = FastAPI()
 
 classifier = TextClassifier(
-    model_multiclass_path="./models/model_02_E.h5",
-    encoder_multiclass_path="./models/encoder_oneHot_E.pickle",
+    model_multiclass_path="./models/model_02_D.h5",
+    encoder_multiclass_path="./models/encoder_oneHot_D.pickle",
     model_regression_path="./models/model_01_D2.h5"
 )
 
