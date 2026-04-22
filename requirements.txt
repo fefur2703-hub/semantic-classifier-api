@@ -1,2 +1,9 @@
 fastapi
 uvicorn
+spacy
+numpy
+tensorflow
+keras
+h5py
+scikit-learn
+spacy-universal-sentence-encoder
